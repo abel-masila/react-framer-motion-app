@@ -36,9 +36,7 @@ const Order = ({ pizza }) => {
       animate="visible"
     >
       <h2>Thank you for your order :)</h2>
-      <motion.p variants={childVariants}>
-        You ordered a {pizza.base} pizza with:
-      </motion.p>
+      <p variants={childVariants}>You ordered a {pizza.base} pizza with:</p>
       <motion.div variants={childVariants}>
         {pizza.toppings.map((topping) => (
           <div key={topping}>{topping}</div>
