@@ -33,7 +33,7 @@ const childVariants = {
 };
 const Order = ({ pizza, setShowModal }) => {
   useEffect(() => {
-    setTimeout(() => setShowModal(true), 2000);
+    setTimeout(() => setShowModal(true), 3000);
   }, [setShowModal]);
   return (
     <motion.div
